@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a ni
         asd.mainView = self.view
         asd.timeInterval = 5
         asd.paddingTop = 100
