@@ -27,3 +27,4 @@ prabhathsam, prabhath.samarathunga@gmail.com
 ## License
 
 SwiftMarquee is available under the MIT license. See the LICENSE file for more info.
+# SwiftMarquee
