@@ -1,0 +1,22 @@
+{
+  "name": "SwiftMarquee",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftMarquee.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/prabhathsam/SwiftMarquee",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "prabhathsam": "prabhath.samarathunga@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/prabhathsam/SwiftMarquee.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftMarquee/Classes/**/*"
+}

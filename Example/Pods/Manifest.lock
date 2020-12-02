@@ -1,0 +1,16 @@
+PODS:
+  - SwiftMarquee (0.1.0)
+
+DEPENDENCIES:
+  - SwiftMarquee (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftMarquee:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftMarquee: 57c836335be312f3a2e9d783794e3d4f23b5048c
+
+PODFILE CHECKSUM: a51a766658ed0526a0ab33123489dd08f79d32de
+
+COCOAPODS: 1.9.3

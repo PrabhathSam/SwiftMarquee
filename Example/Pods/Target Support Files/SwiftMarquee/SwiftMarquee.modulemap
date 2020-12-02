@@ -1,0 +1,6 @@
+framework module SwiftMarquee {
+  umbrella header "SwiftMarquee-umbrella.h"
+
+  export *
+  module * { export * }
+}

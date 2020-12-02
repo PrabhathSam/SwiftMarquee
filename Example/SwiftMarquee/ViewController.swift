@@ -7,18 +7,43 @@
 //
 
 import UIKit
+import SwiftMarquee
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var marqueeView: UIView!
+    
+    var asd = Marquee()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view, typically from a ni
+        asd.mainView = self.view
+        asd.timeInterval = 5
+        asd.paddingTop = 100
+        asd.labelColor = UIColor.red
+        asd.tickers = [
+            "asdsad",
+            "asdasdsss",
+            "asdsads",
+            "ssdadxcxczx"
+        ]
+        asd.start()
     }
 
+    @IBAction func btnClicked(_ sender: Any) {
+        asd.stop()
+    }
+    
+    @IBAction func btn1Clicked(_ sender: Any) {
+        asd.start()
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
+    
 }
 
