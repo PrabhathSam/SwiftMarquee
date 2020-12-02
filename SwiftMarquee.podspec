@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+'SwiftMarquee SwiftMarquee SwiftMarquee SwiftMarquee'
+DESC
 
   s.homepage         = 'https://github.com/prabhathsam/SwiftMarquee'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,9 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/prabhathsam/SwiftMarquee.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'SwiftMarquee/Classes/**/*'
+  s.source_files = 'SwiftMarquee/Classes/**/*.swift'
+  
   
   # s.resource_bundles = {
   #   'SwiftMarquee' => ['SwiftMarquee/Assets/*.png']
