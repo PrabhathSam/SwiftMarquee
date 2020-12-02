@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftMarquee_Example' do
+  pod 'SwiftMarquee', :path => '../'
+
+  target 'SwiftMarquee_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
